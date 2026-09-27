@@ -1,4 +1,4 @@
-const API_BASE = import.meta.env.VITE_API_BASE_URL || 'https://job-scheduler-2-x5wh.onrender.com/api';
+const API_BASE = (import.meta.env.VITE_API_BASE_URL || import.meta.env.VITE_API_URL || 'https://job-scheduler-2-x5wh.onrender.com').replace(/\/$/, '') + '/api';
 
 async function request(endpoint, options = {}) {
   try {
