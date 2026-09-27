@@ -1,0 +1,11 @@
+frontend/
+.git/
+.gitignore
+README.md
+.env.example
+scripts/
+docker-compose.yml
+.tools/
+node_modules/
+dist/
+
