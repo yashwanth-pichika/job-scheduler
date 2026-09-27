@@ -1,8 +1,4 @@
 {
-  "buildCommand": "npm install && npm run build",
-  "outputDirectory": "dist",
-  "env": {
-    "VITE_API_URL": "https://job-scheduler-2-x5wh.onrender.com"
-  },
-  "root": "frontend"
+  "buildCommand": "npm run build",
+  "outputDirectory": "frontend/dist"
 }
