@@ -1,0 +1,7 @@
+backend/
+docker-compose.yml
+Dockerfile
+.git
+.github
+README.md
+.env.example
